@@ -29,3 +29,21 @@ header {
     background-position: center;
     color: white;
 }
+
+/* Custom Footer Styling */
+.bg-black {
+    background-color: #000000 !important;
+}
+
+footer a:hover {
+    color: #0d6efd !important; /* Changes to Bootstrap primary blue on hover */
+    transition: 0.3s;
+}
+
+footer h5 {
+    letter-spacing: 1px;
+}
+
+.text-secondary {
+    color: #b5b5b5 !important; /* Makes the paragraph text slightly easier to read on black */
+}

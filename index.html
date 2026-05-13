@@ -14,19 +14,33 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#">DILNETH <span class="text-success">GLOBAL</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <!-- Brand Name -->
+      <a class="navbar-brand fw-bold" href="index.html">DILNETH <span class="text-success">GLOBAL</span></a>
+
+      <!-- Toggle Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dilnethNavbar"
+        aria-controls="dilnethNavbar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+
+      <!-- Collapsible Content -->
+      <div class="collapse navbar-collapse" id="dilnethNavbar">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="um.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="um.html">Sectors</a></li>
-          <li class="nav-item"><a class="nav-link" href="um.html">About</a></li>
-          <li class="nav-item"><a class="btn btn-success ms-lg-3" href="um.html">Contact Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="um.html">Admin</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-success ms-lg-3" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Admin</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -80,10 +94,60 @@
     </div>
   </section>
 
+  <footer class="bg-black text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        <!-- Column 1: Short Description -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold text-uppercase mb-3">Dilneth Global</h5>
+          <p class="text-secondary">
+            Providing innovative global solutions
+            and excellence in service. Follow us for updates: <strong>
+              <copyright>&copy; 2026</copyright> Dilneth Global
+            </strong>
+          </p>
+        </div>
+
+        <!-- Column 2: Address -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold text-uppercase mb-3">Location</h5>
+          <p class="text-secondary mb-1">72, Sandagiri,</p>
+          <p class="text-secondary mb-1">Nainamadama W/, Sri Lanka.</p>
+          <p class="text-secondary">61120</p>
+        </div>
+
+        <!-- Column 3: Contact Info -->
+        <div class="col-md-4 mb-4">
+          <h5 class="fw-bold text-uppercase mb-3">Contact Us</h5>
+          <p class="text-secondary mb-1">
+            <strong>Phone:</strong> <a href="tel:+94766994474" class="text-white text-decoration-none">+94 76 699
+              4474</a>
+          </p>
+          <p class="text-secondary">
+            <strong>Email:</strong> <a href="mailto:sinethrumal667@gmail.com"
+              class="text-white text-decoration-none">sinethrumal667@gmail.com</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Divider Line -->
+      <hr class="bg-secondary">
+
+      <!-- Bottom Center Wording -->
+      <div class="row mt-3">
+        <div class="col text-center">
+          <p class="mb-0 small text-secondary">A product from Sri Lanka</p>
+          <p class="mt-1 small" style="opacity: 0.6;">&copy; 2026 Dilneth Global. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <!-- Bootstrap JS Bundle -->
   <script src="bootstrap.bundle.js"></script>
   <script src="bootstrap.js"></script>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
