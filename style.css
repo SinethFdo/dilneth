@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #007bff;
+    --dark-bg: #121212;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #053d00;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('assets/welcome_upper.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}

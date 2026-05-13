@@ -2,51 +2,88 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DILNETH GLOBAL (PVT) LTD</title>
-    <link rel="stylesheet" href="bootstrap.css"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dilneth Global | Excellence in Innovation</title>
+  <!-- Bootstrap CSS -->
+  <link href="bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">DILNETH GLOBAL</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">PRODUCTS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-            Dropdown link
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">A</a></li>
-            <li><a class="dropdown-item" href="#">B</a></li>
-            <li><a class="dropdown-item" href="#">C</a></li>
-          </ul>
-        </li>
-      </ul>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">DILNETH <span class="text-success">GLOBAL</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="um.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="um.html">Sectors</a></li>
+          <li class="nav-item"><a class="nav-link" href="um.html">About</a></li>
+          <li class="nav-item"><a class="btn btn-success ms-lg-3" href="um.html">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="um.html">Admin</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-    
-        <!--<h1>DILNETH GLOBAL (PVT) LTD</h1>-->
-    
-    <img src="UM.png" alt="DILNETH GLOBAL (PVT) LTD Logo" width="100%" height="100%">
-    
+  <!-- Hero Section -->
+  <header id="home" class="py-5 bg-light text-center">
+    <div class="container py-5">
+      <h1 class="display-4 fw-bold">Welcome to DILNETH GLOBAL</h1>
+      <p class="lead mb-4">A JOURNEY OF FRESHNESS, FROM HARVEST TO HOME</p>
+      <button class="btn btn-warning btn-lg" onclick="showWelcomeMessage()">Explore More</button>
+    </div>
+  </header>
+
+  <!-- Services Section -->
+  <section id="services" class="container py-5" style="color: #ebd300;">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Core Brand Values</h2>
+      <hr class="mx-auto w-25">
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title">Authenticity</h5>
+            <p class="card-text">100% genuine Sri Lankan origin.
+              We pride ourselves on delivering the true taste of our homeland's rich agricultural heritage without
+              artificial alterations.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title">purity</h5>
+            <p class="card-text">No added sugars, no artificial preservatives.
+              Our cold-pressed methods and natural drying techniques preserve the vital nutrients and vitamins
+              inherently present in the fruit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body text-center">
+            <h5 class="card-title">Excellence</h5>
+            <p class="card-text">Adhering strictly to export-quality standards.
+              From the plantation to the packaging, every step is rigorously monitored to ensure a premium product.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="bootstrap.bundle.js"></script>
+  <script src="bootstrap.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
