@@ -1,6 +1,6 @@
 // Function to show a simple welcome alert
 function showWelcomeMessage() {
-    alert("Welcome to Dilneth Global!");
+    alert("Welcome to Dilneth Global! Click \"Products\" to see more details.");
 }
 
 // Example: Change Navbar background on scroll
